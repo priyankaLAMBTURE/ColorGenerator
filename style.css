@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  user-select: none;
+}
+
+.outer-container {
+  background-color: rgb(255, 255, 255);
+  
+  justify-content: center;
+  
+  margin: 90px auto 20px;
+  width: 20%;
+
+  /* height: 460px; */
+
+  border: 2px dashed rgb(17, 16, 16);
+  border-radius: 20px;
+  
+  box-sizing: border-box;
+  
+}
+
+.container {
+  
+  width: 80%;
+  height: 140px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+h2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 12px auto 19px;
+}
+
+.buttons-div {
+  padding: 20px 28px 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;     
+}
+
+button {
+  padding: 8px 20px 8px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(61, 137, 208);
+  font-weight: 500;
+}
+
+.copy-button {
+  background-color: rgb(209, 108, 151);
+}
+
+.generate-button:active {
+  background-color: rgb(14, 100, 181);
+}
+
+.copy-button:active {
+  background-color: rgb(157, 65, 105);
+}
+
+.info-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: black;
+  border-radius: 5px;     
+  margin: 0px auto;
+  height: 40px;
+}
+
+p {
+  margin-top: 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;    
+  font-family:'Poppins';  
+  
+}
+
+.header-div {
+  display: flex;
+  justify-content: center;
+}
